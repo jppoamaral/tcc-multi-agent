@@ -1,0 +1,25 @@
+{
+  "tools": [
+    {
+      "type": "function", 
+      "function": {
+        "name": "get_exam_result",
+        "description": "Busca e retorna o resultado de um exame específico do paciente",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "patientId": {
+              "type": "string",
+              "description": "Documento/CPF do paciente"
+            },
+            "examId": {
+              "type": "string",
+              "description": "ID específico do exame (opcional - se não informado, retorna todos os exames do paciente)"
+            }
+          },
+          "required": ["patientId"]
+        }
+      }
+    }
+  ]
+}

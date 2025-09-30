@@ -1,0 +1,16 @@
+{
+  "payments": [
+    {
+      "patient_name": "Joao Silva",
+      "document": "12345678901",
+      "date": "2025-10-02",
+      "specialty": "cardiologia"
+    },
+    {
+      "patient_name": "João",
+      "document": "123456",
+      "date": "30/09/2025",
+      "specialty": "clínica geral"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "consultar_slots",
+        "description": "Consulta todos os slots disponíveis no banco de dados",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "buscar_por_documento",
+        "description": "Busca slot ocupado por um documento de paciente específico",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "documento": {
+              "type": "string",
+              "description": "Documento do paciente para buscar seu agendamento"
+            }
+          },
+          "required": ["documento"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "liberar_slot",
+        "description": "Libera um slot ocupado por um paciente",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "slot_id": {
+              "type": "string",
+              "description": "ID do slot a ser liberado"
+            }
+          },
+          "required": ["slot_id"]
+        }
+      }
+    }
+  ]
+}

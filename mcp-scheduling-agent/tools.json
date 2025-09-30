@@ -1,0 +1,37 @@
+{
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "consultar_slots",
+        "description": "Consulta todos os slots disponíveis no banco de dados",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "agendar_slot",
+        "description": "Agenda um slot específico para um paciente",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "slot_id": {
+              "type": "string",
+              "description": "ID do slot a ser agendado (ex: SLOT-001)"
+            },
+            "patient_cpf": {
+              "type": "string",
+              "description": "CPF/documento do paciente"
+            }
+          },
+          "required": ["slot_id", "patient_cpf"]
+        }
+      }
+    }
+  ]
+}

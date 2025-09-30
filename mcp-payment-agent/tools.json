@@ -1,0 +1,50 @@
+{
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "processar_pagamento",
+        "description": "Processa pagamento salvando no banco de dados compartilhado",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "patient_name": {
+              "type": "string",
+              "description": "Nome completo do paciente"
+            },
+            "document": {
+              "type": "string",
+              "description": "CPF ou documento do paciente"
+            },
+            "date": {
+              "type": "string",
+              "description": "Data da consulta/pagamento"
+            },
+            "specialty": {
+              "type": "string",
+              "description": "Especialidade médica da consulta"
+            }
+          },
+          "required": ["patient_name", "document", "date", "specialty"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "processar_reembolso",
+        "description": "Processa reembolso removendo pagamento do banco de dados",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "document": {
+              "type": "string",
+              "description": "CPF ou documento do paciente"
+            }
+          },
+          "required": ["document"]
+        }
+      }
+    }
+  ]
+}

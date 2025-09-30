@@ -1,0 +1,70 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "scheduling_agent",
+      "description": "Comunica com o agente de agendamento para criar, consultar ou verificar disponibilidade de consultas médicas",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Mensagem completa que será enviada para o agente de agendamento"
+          }
+        },
+        "required": ["message"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cancellation_agent",
+      "description": "Comunica com o agente de cancelamento para cancelar consultas e processar reembolsos",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Mensagem completa que será enviada para o agente de cancelamento"
+          }
+        },
+        "required": ["message"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "payment_agent",
+      "description": "Comunica com o agente de pagamento para processar pagamentos, confirmações e estornos",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Mensagem completa que será enviada para o agente de pagamento"
+          }
+        },
+        "required": ["message"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "exam_agent",
+      "description": "Comunica com o agente de exames para consultar resultados e fazer upload de exames",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Mensagem completa que será enviada para o agente de exames"
+          }
+        },
+        "required": ["message"]
+      }
+    }
+  }
+]

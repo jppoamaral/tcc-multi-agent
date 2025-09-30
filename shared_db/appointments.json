@@ -1,0 +1,212 @@
+{
+  "appointments": {},
+  "available_slots": {
+    "2025-09-26": [
+      {
+        "slot_id": "SLOT-001",
+        "time": "09:00",
+        "doctor_id": "dr_silva",
+        "doctor_name": "Dr. Silva",
+        "specialties": [
+          "cardiologia",
+          "clinica-geral"
+        ],
+        "available": true,
+        "patient": null
+      },
+      {
+        "slot_id": "SLOT-002",
+        "time": "14:00",
+        "doctor_id": "dr_santos",
+        "doctor_name": "Dr. Santos",
+        "specialties": [
+          "dermatologia",
+          "clinica-geral"
+        ],
+        "available": true,
+        "patient": null
+      }
+    ],
+    "2025-09-27": [
+      {
+        "slot_id": "SLOT-003",
+        "time": "10:00",
+        "doctor_id": "dr_costa",
+        "doctor_name": "Dr. Costa",
+        "specialties": [
+          "cardiologia",
+          "neurologia"
+        ],
+        "available": true,
+        "patient": null
+      },
+      {
+        "slot_id": "SLOT-004",
+        "time": "15:00",
+        "doctor_id": "dr_silva",
+        "doctor_name": "Dr. Silva",
+        "specialties": [
+          "cardiologia",
+          "clinica-geral"
+        ],
+        "available": true,
+        "patient": null
+      }
+    ],
+    "2025-09-30": [
+      {
+        "slot_id": "SLOT-005",
+        "time": "09:30",
+        "doctor_id": "dr_oliveira",
+        "doctor_name": "Dr. Oliveira",
+        "specialties": [
+          "pediatria",
+          "clinica-geral"
+        ],
+        "available": false,
+        "patient": "789065"
+      },
+      {
+        "slot_id": "SLOT-006",
+        "time": "16:00",
+        "doctor_id": "dr_santos",
+        "doctor_name": "Dr. Santos",
+        "specialties": [
+          "dermatologia",
+          "clinica-geral"
+        ],
+        "available": false,
+        "patient": "123456"
+      }
+    ],
+    "2025-10-01": [
+      {
+        "slot_id": "SLOT-007",
+        "time": "11:00",
+        "doctor_id": "dr_costa",
+        "doctor_name": "Dr. Costa",
+        "specialties": [
+          "cardiologia",
+          "neurologia"
+        ],
+        "available": false,
+        "patient": "123456"
+      },
+      {
+        "slot_id": "SLOT-008",
+        "time": "13:30",
+        "doctor_id": "dr_pereira",
+        "doctor_name": "Dr. Pereira",
+        "specialties": [
+          "ortopedia",
+          "clinica-geral"
+        ],
+        "available": true,
+        "patient": null
+      }
+    ],
+    "2025-10-02": [
+      {
+        "slot_id": "SLOT-009",
+        "time": "08:30",
+        "doctor_id": "dr_oliveira",
+        "doctor_name": "Dr. Oliveira",
+        "specialties": [
+          "pediatria",
+          "clinica-geral"
+        ],
+        "available": true,
+        "patient": null
+      },
+      {
+        "slot_id": "SLOT-010",
+        "time": "17:00",
+        "doctor_id": "dr_pereira",
+        "doctor_name": "Dr. Pereira",
+        "specialties": [
+          "ortopedia",
+          "clinica-geral"
+        ],
+        "available": true,
+        "patient": null
+      },
+      {
+        "slot_id": "SLOT-011",
+        "time": "14:30",
+        "doctor_id": "dr_costa",
+        "doctor_name": "Dr. Costa",
+        "specialties": [
+          "cardiologia",
+          "neurologia"
+        ],
+        "available": true,
+        "patient": null
+      }
+    ],
+    "2025-10-03": [
+      {
+        "slot_id": "SLOT-012",
+        "time": "09:00",
+        "doctor_id": "dr_silva",
+        "doctor_name": "Dr. Silva",
+        "specialties": [
+          "cardiologia",
+          "clinica-geral"
+        ],
+        "available": true,
+        "patient": null
+      },
+      {
+        "slot_id": "SLOT-013",
+        "time": "11:30",
+        "doctor_id": "dr_costa",
+        "doctor_name": "Dr. Costa",
+        "specialties": [
+          "cardiologia",
+          "neurologia"
+        ],
+        "available": true,
+        "patient": null
+      },
+      {
+        "slot_id": "SLOT-014",
+        "time": "16:00",
+        "doctor_id": "dr_silva",
+        "doctor_name": "Dr. Silva",
+        "specialties": [
+          "cardiologia",
+          "clinica-geral"
+        ],
+        "available": true,
+        "patient": null
+      }
+    ],
+    "2025-10-04": [
+      {
+        "slot_id": "SLOT-015",
+        "time": "10:00",
+        "doctor_id": "dr_costa",
+        "doctor_name": "Dr. Costa",
+        "specialties": [
+          "cardiologia",
+          "neurologia"
+        ],
+        "available": true,
+        "patient": null
+      },
+      {
+        "slot_id": "SLOT-016",
+        "time": "15:30",
+        "doctor_id": "dr_silva",
+        "doctor_name": "Dr. Silva",
+        "specialties": [
+          "cardiologia",
+          "clinica-geral"
+        ],
+        "available": true,
+        "patient": null
+      }
+    ]
+  },
+  "next_appointment_id": 1
+}
